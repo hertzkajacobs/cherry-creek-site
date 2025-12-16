@@ -158,15 +158,18 @@ export default function Home() {
 >
   {/* INSURANCE LOGOS GO HERE */}
 
-  <div className="mt-14">
-    <img
-      src="/insurance-logos.png"
-      alt="Insurance providers accepted including KanCare, Sunflower Health Plan, UnitedHealthcare, Ambetter, Aetna, Healthy Blue, and Carelon Behavioral Health"
-     className="mx-auto max-h-40 md:max-h-44 w-auto opacity-95"
-    />
-  </div>
+<div className="mt-16 md:mt-20">
+  <img
+    src="/insurance-logos.png"
+    alt="Insurance providers accepted including KanCare, Sunflower Health Plan, UnitedHealthcare, Ambetter, Aetna, Healthy Blue, and Carelon Behavioral Health"
+    className="mx-auto max-h-52 md:max-h-56 w-auto opacity-100"
+  />
+</div>
 
+<div className="mt-16">
   <CTA />
+</div>
+
 </Section>
 
     </>
