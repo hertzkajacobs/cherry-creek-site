@@ -152,7 +152,15 @@ export default function Home() {
         </div>
       </Section>{/* Levels of Care section ends */}
 
-{/* WAVE DIVIDER */}
+
+
+<Section
+  title="A full continuum of care"
+  ...
+>
+
+
+{/* WAVE INTO INSURANCE */}
 <div className="relative overflow-hidden">
   <svg
     viewBox="0 0 1440 80"
@@ -166,32 +174,31 @@ export default function Home() {
     />
   </svg>
 </div>
-
-<Section
-  title="A full continuum of care"
-  ...
->
-
-
    <Section
   title="Insurance & payment options"
   subtitle="We work with many insurance plans and also accept Kansas Medicaid. Call us and we’ll help you understand coverage and next steps."
 >
   {/* INSURANCE LOGOS GO HERE */}
 
-<div className="mt-16 md:mt-20">
-  <img
-    src="/insurance-logos.png"
-    alt="Insurance providers accepted including KanCare, Sunflower Health Plan, UnitedHealthcare, Ambetter, Aetna, Healthy Blue, and Carelon Behavioral Health"
-    className="mx-auto max-h-52 md:max-h-56 w-auto opacity-100"
-  />
+<div className="bg-mist">
+  <Section
+    title="Insurance & payment options"
+    subtitle="We work with many insurance plans and also accept Kansas Medicaid. Call us and we’ll help you understand coverage and next steps."
+  >
+    <div className="mt-20 md:mt-24">
+      <img
+        src="/insurance-logos.png"
+        alt="Insurance providers accepted including KanCare, Sunflower Health Plan, UnitedHealthcare, Ambetter, Aetna, Healthy Blue, and Carelon Behavioral Health"
+        className="mx-auto w-full max-w-6xl h-auto opacity-100"
+      />
+    </div>
+
+    <div className="mt-20">
+      <CTA />
+    </div>
+  </Section>
 </div>
 
-<div className="mt-16">
-  <CTA />
-</div>
-
-</Section>
 
     </>
   );
