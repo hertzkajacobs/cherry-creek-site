@@ -174,10 +174,7 @@ export default function Home() {
     />
   </svg>
 </div>
-   <Section
-  title="Insurance & payment options"
-  subtitle="We work with many insurance plans and also accept Kansas Medicaid. Call us and we’ll help you understand coverage and next steps."
->
+
   {/* INSURANCE LOGOS GO HERE */}
 
 <div className="bg-mist">
