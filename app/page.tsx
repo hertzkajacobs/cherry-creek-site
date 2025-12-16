@@ -150,7 +150,28 @@ export default function Home() {
             href="/programs/adolescents"
           />
         </div>
-      </Section>
+      </Section>{/* Levels of Care section ends */}
+
+{/* WAVE DIVIDER */}
+<div className="relative overflow-hidden">
+  <svg
+    viewBox="0 0 1440 80"
+    xmlns="http://www.w3.org/2000/svg"
+    className="w-full h-20 text-mist"
+    preserveAspectRatio="none"
+  >
+    <path
+      fill="currentColor"
+      d="M0,32 C120,48 240,64 360,64 C480,64 600,48 720,40 C840,32 960,32 1080,40 C1200,48 1320,64 1440,64 L1440,0 L0,0 Z"
+    />
+  </svg>
+</div>
+
+<Section
+  title="A full continuum of care"
+  ...
+>
+
 
    <Section
   title="Insurance & payment options"
