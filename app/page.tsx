@@ -69,7 +69,7 @@ export default function Home() {
       {/* PHP */}
       <a
         href="/services/php-iop"
-        className="rounded-2xl border bg-lavender/20 p-6 shadow-sm hover:shadow-md transition"
+        className="rounded-2xl border bg-mist p-6 shadow-sm hover:shadow-md transition"
       >
         <h3 className="text-lg font-bold text-ink">PHP</h3>
         <p className="mt-2 text-sm text-slate-700">
@@ -83,7 +83,7 @@ export default function Home() {
       {/* IOP */}
       <a
         href="/services/php-iop"
-        className="rounded-2xl border bg-sage/20 p-6 shadow-sm hover:shadow-md transition"
+        className="rounded-2xl border bg-white p-6 shadow-sm hover:shadow-md transition"
       >
         <h3 className="text-lg font-bold text-ink">IOP</h3>
         <p className="mt-2 text-sm text-slate-700">
@@ -97,7 +97,7 @@ export default function Home() {
       {/* OP */}
       <a
         href="/services/outpatient"
-        className="rounded-2xl border bg-sky/20 p-6 shadow-sm hover:shadow-md transition"
+        className="rounded-2xl border bg-mist p-6 shadow-sm hover:shadow-md transition"
       >
         <h3 className="text-lg font-bold text-ink">Outpatient (OP)</h3>
         <p className="mt-2 text-sm text-slate-700">
