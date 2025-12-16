@@ -37,7 +37,7 @@ export default function Home() {
       we’ll help you find the right level of care.
     </p>
 
-    <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
+  <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-5">
       {/* Social Detox */}
       <a
         href="/services/detox"
