@@ -7,9 +7,6 @@ export function Hero() {
       <div className="container py-16 md:py-20">
         <div className="grid gap-10 md:grid-cols-2 md:items-center">
           <div>
-            <p className="inline-flex items-center gap-2 rounded-full border bg-white px-3 py-1 text-xs font-semibold text-slate-700">
-              Wichita, KS • Residential Treatment • Detox • PHP/IOP
-            </p>
             <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-ink md:text-5xl">
               Compassionate care for drug & alcohol recovery
             </h1>
