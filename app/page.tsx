@@ -152,12 +152,23 @@ export default function Home() {
         </div>
       </Section>
 
-      <Section
-        title="Insurance & payment options"
-        subtitle="We work with many insurance plans and also accept Kansas Medicaid. Call us and we’ll help you understand coverage and next steps."
-      >
-        <CTA />
-      </Section>
+   <Section
+  title="Insurance & payment options"
+  subtitle="We work with many insurance plans and also accept Kansas Medicaid. Call us and we’ll help you understand coverage and next steps."
+>
+  {/* INSURANCE LOGOS GO HERE */}
+
+  <div className="mt-10">
+    <img
+      src="/insurance-logos.png"
+      alt="Insurance providers accepted including KanCare, Sunflower Health Plan, UnitedHealthcare, Ambetter, Aetna, Healthy Blue, and Carelon Behavioral Health"
+      className="mx-auto max-h-28 w-auto opacity-90"
+    />
+  </div>
+
+  <CTA />
+</Section>
+
     </>
   );
 }
