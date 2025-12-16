@@ -7,6 +7,27 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <section className="bg-white">
+  <div className="container py-12 md:py-20 grid gap-8 md:grid-cols-2 items-center">
+    <div>
+      <h2 className="text-2xl md:text-3xl font-bold text-ink">
+        You don’t have to do this alone
+      </h2>
+      <p className="mt-4 text-slate-700">
+        Recovery begins with feeling supported, understood, and safe. Our team
+        meets you with compassion, respect, and evidence-based care—every step
+        of the way.
+      </p>
+    </div>
+
+    <img
+      src="/supportive-care.png"
+      alt="Supportive care and compassion during addiction recovery"
+      className="rounded-2xl shadow-sm w-full h-auto object-cover"
+    />
+  </div>
+</section>
+
       <Section
         title="A full continuum of care"
         subtitle="Whether you’re taking the first step or returning to treatment, our team meets you where you are — with structure, compassion, and clinical support."
