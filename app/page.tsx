@@ -159,7 +159,6 @@ export default function Home() {
   ...
 >
 
-
 {/* WAVE INTO INSURANCE */}
 <div className="relative overflow-hidden">
   <svg
@@ -174,8 +173,6 @@ export default function Home() {
     />
   </svg>
 </div>
-
-  {/* INSURANCE LOGOS GO HERE */}
 
 <div className="bg-mist">
   <Section
